@@ -55,7 +55,7 @@ OPENCV_REQUIREMENTS = [
 ]
 
 EXTRA_LIBS_REQUIREMENTS = [
-    "cairosvg==2.*,>=2.7.1",
+    "cairosvg==2.*,>=2.8.2",
     "pycurl==7.*,>=7.45.2",
     "pillow-avif-plugin==1.*,>=1.4.1",
     "pillow-heif==0.*,>=0.22.0",
@@ -127,7 +127,6 @@ def run_setup(extension_modules=None):
         classifiers=[
             "Development Status :: 4 - Beta",
             "Intended Audience :: Developers",
-            "License :: OSI Approved :: MIT License",
             "Natural Language :: English",
             "Operating System :: MacOS",
             "Operating System :: POSIX :: Linux",
@@ -151,9 +150,9 @@ def run_setup(extension_modules=None):
             "JpegIPTC==1.*,>=1.5",
             "libthumbor==2.*,>=2.0.2",
             "piexif==1.*,>=1.1.3",
-            "Pillow>=10.4.0,<11.0.0",
+            "Pillow>=10.4.0,<12.0.0",
             "pytz==2023.*,>=2023.3.post1",
-            "setuptools==75.*,>=75.2.0",
+            "setuptools==78.*,>=78.1.1",
             "statsd==4.*,>=4.0.1",
             "thumbor-plugins-gifv==0.*,>=0.1.5",
             "tornado==6.*,>=6.4",
